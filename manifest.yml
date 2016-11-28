@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: ssovish
+  host: ssovish
+  disk_quota: 1024M
+  services:
+  - Single Sign On-hr
